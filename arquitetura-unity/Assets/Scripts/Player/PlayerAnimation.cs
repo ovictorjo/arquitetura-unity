@@ -49,12 +49,12 @@ namespace Assets.Scripts.Player
                 
                 else if (m_FacingDirection == FacingDirection.FacingdDown)
                 {
-                    ChangeAnimation("idle_player");
+                    ChangeAnimation("idle_down");
                 }
                 
-                else if (m_FacingDirection == FacingDirection.FacingdDown)
+                else if (m_FacingDirection == FacingDirection.FacingUp)
                 {
-                    ChangeAnimation("idle_player");
+                    ChangeAnimation("idle_up");
                 }
             }
             
